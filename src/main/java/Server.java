@@ -54,7 +54,6 @@ class ServerThread extends Thread
 
         Server.allTheClients.add(s);
 
-
         InputStream sin = s.getInputStream();
         OutputStream sout = s.getOutputStream();
 
@@ -80,6 +79,8 @@ class ServerThread extends Thread
                     DataOutputStream oss = new DataOutputStream(client.getOutputStream());
                     oss.writeUTF(message);
                 }
+
+                message = "";
             }
         } catch (Exception e){
 
