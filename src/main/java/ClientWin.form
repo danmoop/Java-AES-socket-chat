@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ClientWin">
+  <grid id="27dc6" binding="jpanel" layout-manager="GridLayoutManager" row-count="5" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="12" width="896" height="572"/>
+    </constraints>
+    <properties>
+      <background color="-14273992"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e5e9" class="javax.swing.JTextField" binding="messageField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14273992"/>
+          <font size="24"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="8d2e6" class="javax.swing.JPasswordField" binding="keyField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14273992"/>
+          <foreground color="-197380"/>
+        </properties>
+      </component>
+      <component id="40b5a" class="javax.swing.JButton" binding="applyKeyButton">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14273992"/>
+          <foreground color="-5184001"/>
+          <text value="Apply"/>
+        </properties>
+      </component>
+      <component id="21455" class="javax.swing.JButton" binding="nicknameApplyButton">
+        <constraints>
+          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14273992"/>
+          <foreground color="-5183745"/>
+          <text value="Apply"/>
+        </properties>
+      </component>
+      <component id="bb542" class="javax.swing.JButton" binding="sendButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14273992"/>
+          <foreground color="-5118209"/>
+          <text value="Send"/>
+        </properties>
+      </component>
+      <component id="38ac7" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14273992"/>
+          <foreground color="-5249025"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <scrollpane id="d0dcc">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="9" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14339784"/>
+          <foreground color="-14339784"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1fbf6" class="javax.swing.JTextArea" binding="messagesBox">
+            <constraints/>
+            <properties>
+              <background color="-14273992"/>
+              <font size="28"/>
+              <foreground color="-1706241"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="d373a" class="javax.swing.JButton" binding="connectButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14273992"/>
+          <foreground color="-5052673"/>
+          <text value="Connect"/>
+        </properties>
+      </component>
+      <component id="df0d7" class="javax.swing.JTextField" binding="hostField">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14274248"/>
+          <foreground color="-1771777"/>
+        </properties>
+      </component>
+      <component id="a2bd0" class="javax.swing.JTextField" binding="portField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14274504"/>
+          <foreground color="-1771777"/>
+        </properties>
+      </component>
+      <component id="bfc51" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="Nickname"/>
+        </properties>
+      </component>
+      <component id="adff0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="Key"/>
+        </properties>
+      </component>
+      <component id="8a7bf" class="javax.swing.JTextField" binding="nicknameField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14273992"/>
+          <font style="1"/>
+          <foreground color="-394759"/>
+        </properties>
+      </component>
+      <component id="a7a13" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="Message"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
